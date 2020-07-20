@@ -14,6 +14,6 @@ public class ConsecutiveNumbersSum {
     for (int i = 1; i <= totalNumbers; i++) {
       totalSum += i;
     }
-    return totalSum;
+    return totalSum1;
   }
 }
