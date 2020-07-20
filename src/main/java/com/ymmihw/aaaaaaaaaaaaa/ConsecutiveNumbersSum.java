@@ -9,12 +9,11 @@ public class ConsecutiveNumbersSum {
     this.totalNumbers = totalNumbers;
   }
 
-  public long getTotalSum()   
-  {
+  public long getTotalSum() {
     totalSum = 0;
-    for (int i = 1; i <=    totalNumbers; i++) {
+    for (int i = 1; i <= totalNumbers; i++) {
       totalSum += i;
     }
-    return    totalSum;
+    return totalSum;
   }
 }
